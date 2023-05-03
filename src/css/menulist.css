@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menulist {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+.menulist li {
+    padding-top: 20px;
+    font-family: 'KOTRA_BOLD-Bold';
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.menulist img {
+    width: 300px;
+}
+
+.menulist img:hover {
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 100px;
+}
+
+.divdiv {
+    display: flex;
+    margin: 50px 200px 10px 200px ;
+    flex-wrap: wrap;
+    
+}
+
+
+.kkk {
+    background-image: url(../img/shopping-cart.png);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    position: absolute;
+    left: 20px;
+}

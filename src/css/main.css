@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.151);
+    position: fixed;
+    width: 100%;
+}
+/* nav-box */
+.box a {
+    color: black;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 40px;
+    background-size: contain;
+    margin: 9px 0px;
+}
+
+.headerImg {
+    background-image: url(../img/main_header.png);
+    width: 100%;
+    height: 200vh;
+    background-size: cover;
+}
+
+.dd {
+    background-image: url(../img/도넛박스.png);
+    width: 1200px;
+    height: 900px;
+    margin: 200px auto;
+    background-size: cover;
+    position: absolute;
+    top: 2300px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.textBackground {
+    background-image: url(../img/도넛1.png);
+    height: 100vh;
+    padding-bottom: 300px;
+}
+
+.textBackground h1 {
+    font-size: 17em;
+    font-family: 'Abril Fatface', cursive;
+    text-align: 'center';
+    font-weight: 'bold';
+    color: rgb(236, 73, 73);
+    letter-spacing: 25px;
+    text-align: center;
+    /* align-items: center; */
+    position: absolute;
+    top: 2400px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+
+.image {
+    background-image: url(../img/image1.png);
+    width: 750px;
+    height: 750px;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(../img/image2.jpg);
+    width: 750px;
+    height: 750px;
+    background-size: cover;
+    float:right;
+
+}
+
+.image3 {
+    background-image: url(../img/도넛.png);
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    position: absolute;
+    top: 5050px;
+    right: 550px;
+}
+
+.image4 {
+    background-image: url(../img/image3.png);
+    width: 750px;
+    height: 750px;
+    background-size: cover;
+    clear:right;
+}
+
+.image5 {
+    background-image: url(../img/도넛2.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+    top: 4200px;
+    left: 550px;
+}
+
+.text {
+    font-size: 5rem;
+    position: absolute;
+    left: 800px;
+    top: 3900px;
+}
+
+.text1 {
+    font-size: 5rem;
+    position: absolute;
+
+}
+
+
+
+.vibration {
+    animation: vibration .6s infinite;
+  }
+  
+  @keyframes vibration {
+    from {
+      transform: rotate(2deg);
+    }
+    to {
+      transform: rotate(-2deg);
+    }
+  }
+  
