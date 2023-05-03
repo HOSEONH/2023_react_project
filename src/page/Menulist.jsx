@@ -1,6 +1,8 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import DataContext from '../context/DataContext';
+import { Link } from 'react-router-dom';
 import '../css/menulist.css'
+
 export default function Menulist() {
   const { state, action } = useContext(DataContext);
   const { donutList, cartList } = state;
@@ -12,7 +14,7 @@ export default function Menulist() {
     const newCart = {
       id: donut.id,
       name: donut.name,
-      image: donut.image, 
+      image: donut.image,
       price: donut.price
     }
     const newList = cartList.concat(newCart);
@@ -31,13 +33,16 @@ export default function Menulist() {
       {donutList.map((donut) => (
         <div key={donut.id} className='menulist'>
           <div 
-          className='kkk'
-          onClick={()=>{addCartlist(donut)}}
+            className='kkk'
+            faCartShopping
+            onClick={()=>{addCartlist(donut)}}
           >
           </div>
-          <img src={donut.image} alt={donut.name} />
+          <Link to={`/menulist/${donut.id}`}>
+            <img src={donut.image} alt={donut.name} />
+          </Link>
           <li>{donut.name}</li>
-          <li>{donut.price}</li>
+          <li>{donut.price}원</li>
         </div>
       ))}
       </div>
