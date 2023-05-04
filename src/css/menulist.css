@@ -12,8 +12,89 @@
     font-style: normal;
 }
 
-.menulist {
-    border: 1px solid black;
+@font-face {
+    font-family: 'Happiness-Sans-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeekbleMalang2WOFF2';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KOFIHDrLEEJWTTF-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/KOFIHDrLEEJWTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonoplexKRWide-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-wide@1.0/MonoplexKRWide-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'KOTRA_BOLD-Bold';
+}
+
+/* menu-box start */
+.menu-box {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'KOTRA_BOLD-Bold';
+    font-family: 'Happiness-Sans-Bold';
+
+}
+
+.menu-box span:hover{
+    color: rgb(238, 0, 0);
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.menu-box span:hover:after {
+    color: initial;
+}
+
+.menu-box span:after {
+    content: "|";
+    padding: 0 10px;
+    color: initial;
+}
+
+.menu-box span:last-child:after {
+    content: none;
+}
+
+/* menu-box end */
+
+
+
+
+
+
+.donuts {
+    /* border: 1px solid black; */
     width: 300px;
     height: 300px;
     display: flex;
@@ -25,23 +106,42 @@
     position: relative;
 }
 
-.menulist li {
-    padding-top: 20px;
+/* 도넛들 */
+.donuts li {
     font-family: 'KOTRA_BOLD-Bold';
+    font-family: 'Happiness-Sans-Bold';
+    font-family: 'GeekbleMalang2WOFF2';
+
+    font-family: 'KOFIHDrLEEJWTTF-B';
+        font-family: 'MonoplexKRWide-Bold';
+
+        font-family: 'NanumSquareNeo-Variable';
+
+
     list-style: none;
     font-size: 1.5rem;
 }
 
-.menulist img {
+.donuts li:nth-child(3) {
+    position: absolute;
+    bottom: 50px;
+}
+
+.donuts li:nth-child(4) {
+    position: absolute;
+    bottom: 15px;
+    font-size: 20px;
+}
+
+.donuts img {
     width: 300px;
 }
 
-.menulist img:hover {
-    background-color: aqua;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    z-index: 100px;
+.donuts img:hover {
+    position: absolute;
+    display: none;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
 }
 
 .divdiv {
@@ -52,7 +152,7 @@
 }
 
 
-.kkk {
+.cart-icon {
     background-image: url(../img/shopping-cart.png);
     width: 30px;
     height: 30px;
@@ -60,4 +160,10 @@
     position: absolute;
     left: 20px;
     cursor: pointer;
+}
+
+
+.cart-icon:hover {
+    background-color: rgb(11, 0, 0);
+    
 }
