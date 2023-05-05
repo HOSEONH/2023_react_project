@@ -1,0 +1,21 @@
+
+.banner-img2 {
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/329954202_1401339397283747_2443072913676545856_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=CT2FqbH-NUoAX_HWm6H&_nc_oc=AQmO6QlHZe3yiBtvBtkRhFPMupsfuqimq9DSpYSDK6XoA5R402dpd4fDuNMmbaH7pNU&_nc_ht=scontent-lax3-1.xx&oh=00_AfDjZRfxUPFJpWvM82CdwR6K4Bsf-KksQy-mJKkwEHPBKQ&oe=645A5E63");
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.banner-img {
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/339120391_740472550917628_2251953918777938212_n.png?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=xgsV5qzsLVAAX94pL9n&_nc_ht=scontent-lax3-1.xx&oh=00_AfC4HqRb1B9YB95hbRnV7iBCMKVHQamqzSS9jD56jgXqlQ&oe=64598D13");
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

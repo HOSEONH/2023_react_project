@@ -5,7 +5,7 @@ import '../css/menulist.css'
 
 export default function Menulist() {
   const { state, action } = useContext(DataContext);
-  const { donutList, cartList } = state;
+  const { donutList, cartList } = state 
   const { setCartList } = action;
   const [selectedMenu, setSelectedMenu] = useState("All");
 
@@ -42,7 +42,7 @@ export default function Menulist() {
 
   return (
     <div style={{paddingTop:"100px"}}>
-      <div style={{backgroundColor:"coral", width:"100%", height:"500px"}}></div>
+      <div className='ddddddd' ></div>
         <h1>MENU</h1>
         <div className='menu-box'>
           { donutMenu.map((m, i)=>(
