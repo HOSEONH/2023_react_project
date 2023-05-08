@@ -9,6 +9,10 @@ import DonutDetail from './page/DonutDetail';
 
 import { DataProvider } from './context/DataContext';
 
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import './App.css';
+
 function App() {
   return (
     <div className="App">

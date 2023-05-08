@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.slick-dots {
+  bottom: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 300px;
+}
+
+svg {
+  color: #5a5a5a;
+  font-size: 40px;
+}
+
+svg:hover {
+  color: rgb(250, 163, 181);
+}
