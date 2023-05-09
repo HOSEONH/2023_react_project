@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/2023_react_project/static/css/main.c80a061c.css",
+    "main.js": "/2023_react_project/static/js/main.9f0a14ae.js",
+    "static/js/787.a2bf511c.chunk.js": "/2023_react_project/static/js/787.a2bf511c.chunk.js",
+    "static/media/image3.png": "/2023_react_project/static/media/image3.0e4ab801f59af860fc51.png",
+    "static/media/image1.png": "/2023_react_project/static/media/image1.7e825a0e26c2bffad26d.png",
+    "static/media/도넛박스.png": "/2023_react_project/static/media/도넛박스.19fea14e20c08093ce0e.png",
+    "static/media/img1.jpg": "/2023_react_project/static/media/img1.c835bc64781246070421.jpg",
+    "static/media/image2.jpg": "/2023_react_project/static/media/image2.668adb4934f4c2e42a19.jpg",
+    "static/media/img3.jpg": "/2023_react_project/static/media/img3.d1404a3f2390dd6b974f.jpg",
+    "static/media/img2.jpg": "/2023_react_project/static/media/img2.2f75d6558cf9ba5a4e12.jpg",
+    "static/media/kkdmenu.jpg": "/2023_react_project/static/media/kkdmenu.bdca93bfeeec40aea6ec.jpg",
+    "static/media/logo.png": "/2023_react_project/static/media/logo.140aa3bb33d192b2a27d.png",
+    "static/media/도넛.png": "/2023_react_project/static/media/도넛.65afc0f46184a282f8c4.png",
+    "static/media/도넛2.png": "/2023_react_project/static/media/도넛2.277bd6284b7e1c36cc1c.png",
+    "static/media/도넛1.png": "/2023_react_project/static/media/도넛1.e9ca1e3f97adba7f630e.png",
+    "static/media/slick.svg": "/2023_react_project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/2023_react_project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/2023_react_project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/2023_react_project/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/2023_react_project/index.html",
+    "main.c80a061c.css.map": "/2023_react_project/static/css/main.c80a061c.css.map",
+    "main.9f0a14ae.js.map": "/2023_react_project/static/js/main.9f0a14ae.js.map",
+    "787.a2bf511c.chunk.js.map": "/2023_react_project/static/js/787.a2bf511c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c80a061c.css",
+    "static/js/main.9f0a14ae.js"
+  ]
+}
