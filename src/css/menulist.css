@@ -1,73 +1,27 @@
 @font-face {
-    font-family: 'MBC1961GulimM';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KOTRA_BOLD-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Happiness-Sans-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'GeekbleMalang2WOFF2';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/GeekbleMalang2WOFF2.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KOFIHDrLEEJWTTF-B';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/KOFIHDrLEEJWTTF-B.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MonoplexKRWide-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-wide@1.0/MonoplexKRWide-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'NanumSquareNeo-Variable';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
-
-h1 {
-    margin-top: 50px;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'KOTRA_BOLD-Bold';
-    font-family: 'NanumSquareNeo-Variable';
-    font-weight: bold;
+/* menulist */
+.menu-wrap {
+    background-image: url(../img/kkdmenu.jpg);
+    width: 1200px;
+    height: 420px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-/* menu-box start */
 .menu-box {
+    font-family: 'NanumSquareNeo-Variable';
     display: flex;
     justify-content: center;
-    margin: 50px 0;
-    font-size: 1.2rem;
+    margin: 50px 0px 20px 0px;
+    font-size: 1.4rem;
     font-weight: bold;
-    font-family: 'KOTRA_BOLD-Bold';
-    font-family: 'Happiness-Sans-Bold';
-    font-family: 'NanumSquareNeo-Variable';
-
-
 }
 
 .menu-box span:hover{
@@ -89,44 +43,24 @@ h1 {
 .menu-box span:last-child:after {
     content: none;
 }
-
-/* menu-box end */
-
+/* menu-box */
 
 
-
-
-
+/* donuts */
 .donuts {
-    /* border: 1px solid black; */
     width: 300px;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
     margin: 30px;
-
-
     flex-direction: column;
     padding: 20px;
-
     position: relative;
 }
 
-/* 도넛들 */
 .donuts li {
-    font-family: 'KOTRA_BOLD-Bold';
-    font-family: 'Happiness-Sans-Bold';
-    font-family: 'GeekbleMalang2WOFF2';
-
-    font-family: 'KOFIHDrLEEJWTTF-B';
-        font-family: 'MonoplexKRWide-Bold';
-
-        font-family: 'NanumSquareNeo-Variable';
-
-
+    font-family: 'NanumSquareNeo-Variable';
     list-style: none;
     font-size: 1.5rem;
 }
@@ -150,25 +84,18 @@ h1 {
     background-color: rgb(0, 0, 0);
     background-size: cover;
 }
+/* donuts */
 
 
-/* 전체박스 */
-.divdiv {
-    /* display: flex;
-    margin: 50px 200px 10px 200px ;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: flex-start; */
-
+/* div-wrap */
+.div-wrap {
     display: grid;    
     grid-template-columns: 410px 410px 410px;
     justify-content: center;
-
     box-sizing: content-box;
-    
 }
 
-
+/* cart-icon */
 .cart-icon {
     background-image: url(../img/shopping-cart.png);
     width: 30px;
@@ -179,18 +106,7 @@ h1 {
     cursor: pointer;
 }
 
-
 .cart-icon:hover {
     background-color: rgb(11, 0, 0);
-    
 }
-
-
-
-.ddddddd {
-    background-image: url("https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/107548183_3029006440479694_1201979594056303010_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ho1Q_hJd-KgAX8cl2ww&_nc_ht=scontent-lax3-2.xx&oh=00_AfC4_OxD6VvMx9JhILR4Nrnf4sEmmt-vRh0IhoHEhBLyTQ&oe=647C7B3C");
-    width: 100%;
-    height: 410px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/* cart-icon */

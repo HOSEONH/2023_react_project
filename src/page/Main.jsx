@@ -31,6 +31,13 @@ export default function Main()  {
         <Slider {...settings}>
           <div>
             <img 
+              src={require('../img/img3.jpg')}
+              alt=''
+              style={{ width: '100%', height: '100vh', backgroundSize: 'cover'}}
+            />
+          </div>
+          <div>
+            <img
               src={require('../img/img2.jpg')}
               alt=''
               style={{ width: '100%', height: '100vh', backgroundSize: 'cover'}}
@@ -43,35 +50,36 @@ export default function Main()  {
               style={{ width: '100%', height: '100vh', backgroundSize: 'cover'}}
             />
           </div>
-          <div>
-            <img
-              src={require('../img/img3.jpg')}
-              alt=''
-              style={{ width: '100%', height: '100vh', backgroundSize: 'cover'}}
-            />
-          </div>
 
         </Slider>
-        </div>
-        <div className='boxwrap'>
-          <div className='dd'></div>
-          <div className='textBackground'>
-          <h1>Krispy<br/>Kreme</h1>
-        </div>
       </div>
+      <div className='boxwrap'>
+        <div className='dd' data-aos='ade-down'></div>
+          <div className='textBackground'>
+            <h1 className='text'>Krispy<br/>Kreme</h1>
+          </div>
+        </div>
       <div>
-        <span></span>
-        <h1 className='text'>DELICIOUS DOUGHNUTS, NOW DELIVERED</h1>
+        <h1 className='text1'>
+          DELICIOUS<br />
+          DOUGHNUTS,<br />
+          NOW !
+        </h1>
+          <div className='bear-donut'></div>
+          <div className='bear-donut2'></div>
+          <div className='bear-donut3'></div>
       </div>
       <div data-aos='fade-down-right' className='image'></div>
       <div>
-        <h1 className='text1'>From office meetings to
-          birthdays to baby showers. Let us make your event
+        <h1 className='text2'>
+          From office meetings to<br />
+          birthdays to baby showers.<br />
+          Let us make your event<br />
           a little sweeter!</h1>
         <div data-aos='fade-down-left' className='image2'></div>
-        <div className='image3 vibration'></div>
         <div data-aos='fade-down-right' className='image4'></div>
-        <div className='image5'></div>
+        <div data-aos='ade-down' className='yellow-donut'></div>
+        <div data-aos='ade-down' className='pink-donut'></div>
       </div>
     </div>
   )

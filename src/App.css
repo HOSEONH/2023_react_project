@@ -1,3 +1,14 @@
+html { overflow-y:scroll; }
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -41,17 +52,6 @@
   bottom: 20px;
 }
 
-.icon {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 50px 300px;
-}
-
-svg {
-  color: #5a5a5a;
-  font-size: 40px;
-}
-
-svg:hover {
-  color: rgb(250, 163, 181);
+.slick-dots li button {
+  display: none;
 }

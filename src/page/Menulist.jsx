@@ -42,8 +42,7 @@ export default function Menulist() {
 
   return (
     <div style={{paddingTop:"100px"}}>
-      <div className='ddddddd' ></div>
-        <h1>MENU</h1>
+      <div className='menu-wrap' ></div>
         <div className='menu-box'>
           { donutMenu.map((m, i)=>(
             <span
@@ -55,7 +54,7 @@ export default function Menulist() {
         ))}
       </div>
 
-      <div className='divdiv'>
+      <div className='div-wrap'>
       {filteredDonutList.map((donut) => (
         <div key={donut.id} className='donuts'>
           <div 
@@ -67,7 +66,7 @@ export default function Menulist() {
             <img src={donut.image} alt={donut.name} />
           </Link>
           <li>{donut.name}</li>
-          <li>{donut.price}원</li>
+          <li>&#8361;{donut.price}</li>
         </div>
       ))}
       </div>

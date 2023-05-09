@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 
 a {
+    font-family: 'Kanit', sans-serif;
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -11,7 +15,6 @@ a {
 
 div.box {
     z-index: 100px;
-    color: blueviolet;
 }
 
 .box {
@@ -19,7 +22,7 @@ div.box {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.151);
+    /*background-color: rgba(255, 255, 255, 0.151);*/
     position: fixed;
     width: 100%;
 }
@@ -38,119 +41,180 @@ div.box {
     margin: 9px 0px;
 }
 
-.headerImg {
-    background-image: url(../img/h8oiarob.png);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-}
-
 .boxwrap {
     position: relative;
     background-image: url(../img/도넛1.png);
     width: 100%;
     height: 100vh;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    margin: 50px 0px 50px 23px;
 }
+
 
 .dd {
     background-image: url(../img/도넛박스.png);
     width: 1200px;
     height: 900px;
-    margin: 200px auto;
     background-size: cover;
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    transform: translate(-50%, 0%);
+    top: 150px;
+    left: 280px;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
 }
 
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* font */
 .textBackground h1 {
-    font-size: 17em;
+    font-size: 14em;
     font-family: 'Abril Fatface', cursive;
-    text-align: 'center';
-    font-weight: 'bold';
-    color: rgb(236, 73, 73);
-    letter-spacing: 25px;
+    /* font-family: 'Carter One', cursive; */
+    /* font-family: 'Rubik Mono One', sans-serif; */
+    font-family: 'Notable', sans-serif;
+    color: rgb(234, 53, 53);
     text-align: center;
-    /* align-items: center; */
     position: absolute;
-    top: 200px;
+    top: 170px;
     left: 50%;
     transform: translate(-50%, 0%);
+    /* 자간 */
+    letter-spacing: 80px;
+    /* 줄간격 */
+    line-height: 190%
 }
 
+.text1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 7rem;
+    position: absolute;
+    right: 270px;
+    top: 2650px;
+    line-height: 120%;
+    text-align: left;
+    font-weight: 700;
+}
 
+.text2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 7rem;
+    position: absolute;
+    left: 100px;
+    top: 3680px;
+    line-height: 120%;
+    text-align: left;
+    z-index: 500;
+}
 
+/* img */
 .image {
-    background-image: url(../img/image1.png);
-    width: 750px;
-    height: 750px;
-    background-size: cover;
-}
-
-.image2 {
     background-image: url(../img/image2.jpg);
     width: 750px;
     height: 750px;
     background-size: cover;
-    float:right;
-
+    margin: 150px 0px;
 }
 
-.image3 {
-    background-image: url(../img/도넛.png);
-    width: 350px;
-    height: 350px;
-    background-size: cover;
-    position: absolute;
-    top: 5050px;
-    right: 550px;
-}
-
-.image4 {
+.image2 {
     background-image: url(../img/image3.png);
     width: 750px;
     height: 750px;
     background-size: cover;
-    clear:right;
+    float: right;
+    margin: 150px 0px 200px 0px;
 }
 
-.image5 {
+.image4 {
+    background-image: url(../img/image1.png);
+    width: 750px;
+    height: 750px;
+    background-size: cover;
+    clear: right;
+}
+
+.yellow-donut {
     background-image: url(../img/도넛2.png);
     width: 300px;
     height: 300px;
     background-size: cover;
     position: absolute;
-    top: 4200px;
-    left: 550px;
+    top: 3140px;
+    left: 50px;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-.text {
-    font-size: 5rem;
+.pink-donut {
+    background-image: url(../img/도넛.png);
+    width: 350px;
+    height: 350px;
+    background-size: cover;
     position: absolute;
-    left: 800px;
-    top: 3900px;
+    top: 4150px;
+    right: 550px;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-.text1 {
-    font-size: 5rem;
+.bear-donut {
+    background-image: url(https://img.lotteeatz.com/upload/product/2023/03/29/20230329091817996_8.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
     position: absolute;
+    right: 810px;
+    top: 3050px;
+}
+.bear-donut2 {
+    background-image: url(https://img.lotteeatz.com/upload/product/2023/03/29/20230329091817996_8.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 560px;
+    top: 3050px;
+}
+.bear-donut3 {
+    background-image: url(https://img.lotteeatz.com/upload/product/2023/03/29/20230329091817996_8.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 310px;
+    top: 3050px;
+}
 
+svg {
+    overflow: hidden;
 }
 
 
 
-.vibration {
-    animation: vibration .6s infinite;
-}
 
-@keyframes vibration {
-    from {
-        transform: rotate(2deg);
-    }
-    to {
-      transform: rotate(-2deg);
-    }
-  }
-  
+
+
+
+
+
+

@@ -79,7 +79,7 @@ export default function Cart() {
           
           <li>{donut.name}</li>
           
-          <li>{donut.price * (donut.quantity || 1)}원</li>
+          <li>&#8361;{donut.price * (donut.quantity || 1)}</li>
           <div>
             <button onClick={() => decreaseQuantity(donut.id, donut.price)}> - </button>
               {donut.quantity || 1}
@@ -88,7 +88,7 @@ export default function Cart() {
           <button onClick={()=>{deleteList(i, donut.price, donut.quantity || 1)}}>X</button>
         </div>
       ))}
-      <div>Total : {totalPrice}원</div>
+      <div>총 상품금액 &#8361;{totalPrice}원</div>
     </div>
   );
 }
