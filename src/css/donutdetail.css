@@ -1,0 +1,11 @@
+.div-wrap2 {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.div-wrap2 img {
+    position: absolute;
+}

@@ -9,7 +9,7 @@ export default function Menulist() {
   const { setCartList } = action;
   const [selectedMenu, setSelectedMenu] = useState("All");
 
-  const donutMenu = ["All", "FEATURED", "ICED", "GLAZED", "FILLED", "CAKE", "COFFEE", "DRINKS"];
+  const donutMenu = ["All", "LIMITED", "DOZEN", "GLAZED", "FILLED", "CAKE", "COFFEE", "DRINKS"];
 
   const addCartlist = (donut) => {
     const cartItem = cartList.find(item => item.id === donut.id);

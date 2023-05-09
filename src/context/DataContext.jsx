@@ -12,7 +12,6 @@ const DataProvider = ({children}) => {
                 detail : "크리스피크림의 가장 대표적인 도넛으로 부드럽고 달콤한 맛의 오리지널 글레이즈드",
                 image : "https://img.lotteeatz.com/upload/product/2023/01/02/20230102162840841_0.jpg",
                 price : 1700
-
             },
             {
                 id : 2,
@@ -48,7 +47,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 6,
-                category: "",
+                category: "GLAZED",
                 name : "초코홀릭",
                 detail : "밀크초콜릿과 다크초콜릿이 어우러진 도넛",
                 image : "https://img.lotteeatz.com/upload/product/2023/01/02/20230102162924400_3.jpg",
@@ -56,7 +55,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 7,
-                category: "",
+                category: "GLAZED",
                 name : "초콜릿 아이스드 글레이즈드",
                 detail : "부드러운 오리지널 글레이즈드 위에 초콜릿 아이싱을 입힌 도넛",
                 image : "https://img.lotteeatz.com/upload/product/2023/01/02/20230102162914493_6.jpg",
@@ -64,7 +63,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 8,
-                category: "",
+                category: "GLAZED",
                 name : "슈거 코티드",
                 detail : "도넛이 글레이즈 폭포로 들어가기 전에 꺼낸 후 글레이즈 대신 설탕을 묻힌 제품",
                 image : "https://img.lotteeatz.com/upload/product/2023/01/02/20230102162851472_1.jpg",
@@ -96,7 +95,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 12,
-                category: "",
+                category: "FILLED",
                 name : "로투스 비스코프 도넛",
                 detail : "로투스 쿠키크림을 가득 채운 도넛에 진한 로투스 스프레드와 로투스 크럼블을 토핑한 도넛",
                 image : "https://img.lotteeatz.com/upload/product/2023/01/02/20230102163028617_3.jpg",
@@ -128,7 +127,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 16,
-                category: "",
+                category: "GLAZED",
                 name : "메이플 링",
                 detail : "달콤한 메이플 스프레드 위에 고소한 아몬드를 토핑한 도넛",
                 image : "https://img.lotteeatz.com/upload/product/2022/09/30/2022093018135423_8.jpg",
@@ -136,7 +135,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 17,
-                category: "",
+                category: "DOZEN",
                 name : "오리지널 글레이즈드 더즌",
                 detail : "크리스피크림의 가장 대표적인 도넛으로 부드럽고 달콤한 맛의 오리지널 글레이즈드(12개입)",
                 image : "	https://img.lotteeatz.com/upload/product/2023/02/09/20230209035130481_1.png",
@@ -144,7 +143,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 18,
-                category: "",
+                category: "DOZEN",
                 name : "오리지널 글레이즈드 하프더즌",
                 detail : "크리스피크림의 가장 대표적인 도넛으로 부드럽고 달콤한 맛의 오리지널 글레이즈드(6개입)",
                 image : "https://img.lotteeatz.com/upload/product/2019/12/02/20191202173505945_9.jpg",
@@ -152,7 +151,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 19,
-                category: "",
+                category: "DOZEN",
                 name : "어쏘티드 더즌(FIX)",
                 detail : "크리스피크림의 베스트 도넛 12가지로 구성된 세트 메뉴",
                 image : "https://img.lotteeatz.com/upload/product/2023/02/09/20230209161737983_8.jpg",
@@ -160,7 +159,7 @@ const DataProvider = ({children}) => {
             },
             {
                 id : 20,
-                category: "",
+                category: "DOZEN",
                 name : "더블 더즌 딜(FIX)",
                 detail : "부드럽고 달콤한 오리지널 글레이즈드 더즌과 다양한 맛의 어쏘티드 더즌(FIX)을 함께 구성한 제품",
                 image : "https://img.lotteeatz.com/upload/product/2022/09/30/2022093017564794_0.jpg",
@@ -268,8 +267,8 @@ const DataProvider = ({children}) => {
     const [cartList, setCartList] = useState([]);
 
     const value = {
-      state: { donutList, cartList },
-      action: { setDonutList, setCartList }
+        state: { donutList, cartList },
+        action: { setDonutList, setCartList }
     };
 
     return <DataContext.Provider value={value}>
