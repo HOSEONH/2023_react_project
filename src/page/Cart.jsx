@@ -70,6 +70,7 @@ export default function Cart() {
             <input
               type="checkbox" 
               onChange={(e) => Checked(e, donut.price, donut.quantity || 1)}
+              className='chk_box'
             />
           </li>
 

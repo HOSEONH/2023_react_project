@@ -13,11 +13,13 @@ export default function DonutDetail() {
 
   return (
     <div style={{paddingTop:"100px"}}>
-      <div className='div-wrap2'>
+      <div className='div_wrap2'>
         <img src={donut.image} alt={donut.name} />
-        <h2>{donut.name}</h2>
-        <p>{donut.detail}</p>
-        <p>{donut.price}</p>
+        <div className='detail_info'>
+          <h2>{donut.name}</h2>
+          <p>{donut.detail}</p>
+          <p>&#8361;{donut.price}</p>
+        </div>
       </div>
     </div>
   );
