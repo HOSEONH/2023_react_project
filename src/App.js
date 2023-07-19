@@ -6,6 +6,7 @@ import Event from './page/Event';
 import Store from './page/Store';
 import Menulist from './page/Menulist';
 import DonutDetail from './page/DonutDetail';
+import EventList from './page/EventList';
 
 import { DataProvider } from './context/DataContext';
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/menulist/:id" element={<DonutDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/event" element={<Event />} />
+          <Route path="/event-list" element={<EventList />} />
           <Route path="/store" element={<Store />} />
         </Routes>
       </DataProvider>
